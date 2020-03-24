@@ -1,0 +1,141 @@
+
+
+ul:first-child {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #28292b;
+  color:#ffe473;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe473;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: #28292b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #28292b;
+  color:#ffe473;
+}
+
+.active {
+  background-color: #28292b;
+  color:#ffe473;
+}
+
+#pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ffe473;
+  border-left: 20px solid #ffe473;
+  border-bottom: 20px solid #ffe473;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-image: url("../images/back.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-image {
+
+  height:700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.button {
+  background-color: #ffe473; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: transparent;
+
+  color: white;
+  border: 2px solid #ffe473;
+}
+
+.button1:hover {
+  background-color: #ffe473;
+
+  color: #28292b;
+}
+.button2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffe473;
+}
+
+
+
+.button2:hover {
+  background-color: #ffe473;
+  color: #28292b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@viewport{
+  zoom:1.0;
+  width:extend-to-zoom;
+}
+@-ms-viewport{
+  width:extend-to-zoom;
+  zoom:1.0;
+}
